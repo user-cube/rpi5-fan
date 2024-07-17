@@ -19,7 +19,6 @@ DATETIME_FORMAT = '%Y-%m-%d %H:%M:%S'
 FAN_CONTROL_FILE = '/sys/class/thermal/cooling_device0/cur_state'
 
 def main():
-    logging.info("Running FAN control for RPI5 Ubuntu")
     t0 = dt.now()
     old_speed = 0
 
